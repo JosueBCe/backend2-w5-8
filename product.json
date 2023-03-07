@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Adidas Ultraboost",
+    "brand": "Adidas",
+    "color": "Black",
+    "size": "9.5",
+    "price": 150,
+    "description": "Running shoes with boost technology",
+    "category": "shoes"
+  },
+  {
+    "name": "Nike Air Max 97",
+    "brand": "Nike",
+    "color": "Silver",
+    "size": "10",
+    "price": 160,
+    "description": "Retro sneaker with visible air cushioning",
+    "category": "shoes"
+  },
+  {
+    "name": "Vans Old Skool",
+    "brand": "Vans",
+    "color": "Black/White",
+    "size": "8",
+    "price": 60,
+    "description": "Classic skate shoes with canvas upper",
+    "category": "shoes"
+  },
+  {
+    "name": "Adidas Originals T-Shirt",
+    "brand": "Adidas",
+    "color": "White",
+    "size": "M",
+    "price": 30,
+    "description": "Cotton t-shirt with trefoil logo",
+    "category": "shirt"
+  },
+  {
+    "name": "Champion Reverse Weave Hoodie",
+    "brand": "Champion",
+    "color": "Navy",
+    "size": "L",
+    "price": 75,
+    "description": "Heavyweight hoodie with embroidered logo",
+    "category": "shirt"
+  },
+  {
+    "name": "Levi's 501 Original Jeans",
+    "brand": "Levi's",
+    "color": "Blue",
+    "size": "32x32",
+    "price": 80,
+    "description": "Classic straight leg jeans with button fly",
+    "category": "pants"
+  },
+  {
+    "name": "New Era 9FORTY Baseball Cap",
+    "brand": "New Era",
+    "color": "Red",
+    "size": "One Size",
+    "price": 25,
+    "description": "Cotton twill cap with embroidered logo",
+    "category": "caps"
+  },
+  {
+    "name": "Puma Essential Sweatpants",
+    "brand": "Puma",
+    "color": "Black",
+    "size": "M",
+    "price": 50,
+    "description": "Comfortable sweatpants with drawstring waist",
+    "category": "pants"
+  },
+  {
+    "name": "Tommy Hilfiger Polo Shirt",
+    "brand": "Tommy Hilfiger",
+    "color": "Navy",
+    "size": "L",
+    "price": 60,
+    "description": "Cotton polo shirt with embroidered logo",
+    "category": "shirt"
+  },
+  {
+    "name": "Converse Chuck Taylor All Star",
+    "brand": "Converse",
+    "color": "White",
+    "size": "9",
+    "price": 55,
+    "description": "Classic canvas sneakers with rubber sole",
+    "category": "shoes"
+  },
+  {
+    "name": "Calvin Klein Boxer Briefs",
+    "brand": "Calvin Klein",
+    "color": "Black",
+    "size": "M",
+    "price": 30,
+    "description": "Cotton boxer briefs with branded waistband",
+    "category": "underwear"
+  },
+  {
+    "name": "Nike Golf Dri-FIT Polo",
+    "brand": "Nike",
+    "color": "Green",
+    "size": "L",
+    "price": 75,
+    "description": "Moisture-wicking polo shirt for golf",
+    "category": "shirt"
+  },
+  {
+    "name": "Patagonia Better Sweater Fleece",
+    "brand": "Patagonia",
+    "color": "Grey",
+    "size": "M",
+    "price": 139,
+    "description": "Warm and stylish fleece jacket",
+    "category": "jacket"
+  },
+  {
+    "name": "The North Face Resolve 2 Jacket",
+    "brand": "The North Face",
+    "color": "Black",
+    "size": "L",
+    "price": 90,
+    "description": "Waterproof and breathable rain jacket",
+    "category": "jacket"
+  }
+]

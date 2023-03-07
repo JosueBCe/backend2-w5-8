@@ -1,0 +1,115 @@
+// ////////////////////  LOCALLY 
+###
+GET http://localhost:8080/
+
+
+GET http://localhost:8080/products 
+
+###
+GET http://localhost:8080/products/byId/64074257f228ec7ee8d38cc9
+
+###
+GET http://localhost:8080/products/byId/64074257f228ec7ee8d38cbf
+
+###
+GET http://localhost:8080/products/byId/640753825089e174ea49fb6f
+
+
+// POST : CREATE PRODUCT
+
+// for the video 
+###
+POST http://localhost:8080/products HTTP/1.1
+Content-Type: application/json
+
+{
+   "name": "req.body.name",
+      "brand": "req.body.brand",
+      "color": "req.body.color",
+      "size": "req.body.size",
+      "price": "req.body.price",
+      "description": "req.body.description",
+      "category": "req.body.category"
+
+
+}
+
+// Updating the information of the specified ID  PUT == UPDATE
+
+// for the video : get the id of the recently created product
+###
+PUT http://localhost:8080/products/byId/640753825089e174ea49fb6f HTTP/1.1
+content-type: application/json
+
+{
+  "name": "the updated name",
+      "brand": "the updated brand",
+      "color": "the updated color",
+      "size": "the updated size",
+      "price": "the updated price",
+      "description": "the updated description",
+      "category": "the updated category"
+} 
+
+// DELETING CONTACT 
+###
+DELETE http://localhost:8080/products/byId/640753825089e174ea49fb6f HTTP/1.1
+
+
+
+
+
+// ////////////////////  RENDER 
+
+###
+GET https://backend-dev-1joz.onrender.com
+
+
+###
+GET https://backend-dev-1joz.onrender.com/products
+
+###
+GET https://backend-dev-1joz.onrender.com/products/byId/63f4e8a60760c6be2eafebfd
+
+// for the video 
+
+###
+GET https://backend-dev-1joz.onrender.com/products/byId/63f4e8a60760c6be2eafebff
+
+
+// ////////////////////  ON RENDER 
+###
+POST http://backend-dev-1joz.onrender.com/products HTTP/1.1
+Content-Type: application/json
+
+{
+       "name": "req.body.name",
+      "brand": "req.body.brand",
+      "color": "req.body.color",
+      "size": "req.body.size",
+      "price": "req.body.price",
+      "description": "req.body.description",
+      "category": "req.body.category"
+}
+
+###
+PUT http://backend-dev-1joz.onrender.com/products/byId/63fe19a9b5f5791bccb74d16  HTTP/1.1
+content-type: application/json
+
+{
+ "name": "the updated name",
+      "brand": "the updated brand",
+      "color": "the updated color",
+      "size": "the updated size",
+      "price": "the updated price",
+      "description": "the updated description",
+      "category": "the updated category"
+} 
+
+
+###
+DELETE http://backend-dev-1joz.onrender.com/products/byId/63f4e8a60760c6be2eafebfc HTTP/1.1
+
+
+
+

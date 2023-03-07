@@ -1,0 +1,17 @@
+Steps and commands 
+
+
+commands: 
+npm init -y
+npm install express
+npm install -g nodemon
+
+folders 
+routes: calls of the  use, get, ect 
+controllers: the functions that will act as we call them in the route with method (POST, GET,etc)
+models: Connect with the database 
+
+files
+app.js : central file 
+files for each  route: examples are index.js (the father route) and then for other functionalities (contact.js route)
+controllers: examples are index.js () and then for other functionalities  (contact.js of the controller)
